@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Head from './tableHead';
 import Row from './tableRow';
 
 class Table extends Component {
@@ -25,6 +26,7 @@ class Table extends Component {
     render() { 
         return ( 
             <div>
+             <Head />
                 <ul>
                     {this.state.Rows.map(r => <Row 
                     key={r.id}
