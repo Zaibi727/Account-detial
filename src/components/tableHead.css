@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.head-row{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.head-row th{
+    padding:  15px;
+  }
+  .tt{
+      margin-left: 370px;
+  }
+
+
+@media only screen and (max-width: 800px){
+    .tt{
+        margin-left: 100px;
+        text-align: center;
+    }
+    .head-row{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+}
+
