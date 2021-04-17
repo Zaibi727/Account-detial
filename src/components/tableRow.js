@@ -24,7 +24,9 @@ class Row extends Component {
                         </td>
                         <td className="dataa">{this.props.accountType}</td>
                         <td className="dataa">{this.props.status}</td>
-                        <td className="dataa">{this.props.coordinator}</td>
+                        <td  className="dataa">
+                             <span id="project">{this.props.coordinator}</span>
+                        </td>
                         <td className="btn">
                             <Menu className="menu" menuButton={<MenuButton id="btn"><i class="fa fa-ellipsis-h"></i></MenuButton>}>
                                  <MenuItem className="first">Change account type</MenuItem>
