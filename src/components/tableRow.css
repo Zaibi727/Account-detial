@@ -28,6 +28,13 @@ table{
     border-bottom-left-radius: 30px;
     border-top-left-radius: 30px;
 }
+#project {
+    background-color: lightgrey;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 500;    
+}
 .btn{
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
